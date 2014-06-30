@@ -1,0 +1,36 @@
+/* 
+    Document   : tracking
+    Created on : 17-oct-2013, 23:02:54
+    Author     : nazaret
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.draggable { 
+    width: 100px; 
+    height: 35px; 
+    padding: 0.5em;
+    float: left; 
+    margin: 0 10px 10px 0;
+}
+
+.cont_track{
+    height: auto;
+}
+
+.tablas{
+    border-collapse: separate;
+    border-spacing: 3px;
+}
+.td_tablas{
+    border: orange 1px solid !important;
+ 
+}
+td .tablas{
+    border: orange 1px solid !important;
+}
+.td_track{
+    height: 35px;
+    width: 100px;
+}
+

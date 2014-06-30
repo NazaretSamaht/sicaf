@@ -1,0 +1,269 @@
+/* 
+    Document   : estilo_planilla
+    Created on : 10/09/2013, 09:54:11 PM
+    Author     : Nazaret
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+.bloque{
+/*background-color:#ffffff;
+padding: 3px;
+-moz-border-radius: 5px 10px; 
+-webkit-border-radius: 5px 10px; 
+border: 1px solid #ccc;*/
+/*hasta aqui*/
+
+    
+}
+
+.tool{
+    position: relative;
+    padding: 7px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: -15px;
+}
+
+div.toolactivo {
+      
+      line-height: 7px;
+      
+      
+}
+
+div.toolactivo:after {
+    content: "";
+    position: relative;
+    width: 0;
+    height: 0;
+    border-left:10px solid transparent; /* izquierda flecha */
+    border-right:10px solid transparent; /* derecha flecha */
+    border-bottom:5px solid #ccc; /* base flecha y color*/
+    top: -31px;
+    left: -255px;
+}
+
+div.toolretirado {
+      
+      line-height: 22px;
+      
+}
+
+div.toolretirado:after {
+    content: "";
+    position: relative;
+    width: 0;
+    height: 0;
+    border-left:10px solid transparent; /* izquierda flecha */
+    border-right:10px solid transparent; /* derecha flecha */
+    border-bottom:5px solid #ccc; /* base flecha y color */
+    top: -55px;
+    left: -115px;
+}
+
+div.toolhcm {
+      margin-bottom: -5px !important;
+      line-height: 7px;
+      
+}
+
+div.toolhcm:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left:10px solid transparent; /* izquierda flecha */
+    border-right:10px solid transparent; /* derecha flecha */
+    border-bottom:5px solid #ccc; /* base flecha y color */
+    top: -5px;
+    left: 30px;
+}
+
+div.tooliqui {
+      line-height: 15px;
+}
+
+div.tooliqui:after {
+    content: "";
+    position: relative;
+    width: 0;
+    height: 0;
+    border-left:10px solid transparent; /* izquierda flecha */
+    border-right:10px solid transparent; /* derecha flecha */
+    border-bottom:5px solid #FA702F; /* base flecha y color*/
+    top: -43px;
+    left: -255px;
+}
+
+.rtool{
+    position: relative;
+    padding: 7px;
+    text-align: center;
+    border: 2px solid #FA702F;
+    border-radius: 5px;
+    margin-bottom: -15px;
+    background-color: antiquewhite;
+}
+
+div.tanticipo {
+      line-height: 15px;
+}
+
+div.tanticipo:after {
+    content: "";
+    position: relative;
+    width: 0;
+    height: 0;
+    border-left:10px solid transparent; /* izquierda flecha */
+    border-right:10px solid transparent; /* derecha flecha */
+    border-bottom:5px solid #FA702F; /* base flecha y color*/
+    top: -289px;
+    left: -255px;
+}
+
+.rtool_i{
+    position: relative;
+    padding: 7px;
+    text-align: center;
+    border: 2px solid #FA702F;
+    border-radius: 5px;
+    margin-bottom: -5px;
+    background-color: antiquewhite;
+}
+
+div.tinclusion {
+      line-height: 15px;
+      padding-left: 0px;
+      padding-right: 0px;
+}
+
+div.tinclusion:after {
+    content: "";
+    position: relative;
+    width: 0;
+    height: 0;
+    border-left:10px solid transparent; /* izquierda flecha */
+    border-right:10px solid transparent; /* derecha flecha */
+    border-bottom:5px solid #FA702F; /* base flecha y color*/
+    top: -104px;
+    left: -55px;
+}
+
+div.texclusion {
+      line-height: 15px;
+      padding-left: 0px;
+      padding-right: 0px;
+}
+
+div.texclusion:after {
+    content: "";
+    position: relative;
+    width: 0;
+    height: 0;
+    border-left:10px solid transparent; /* izquierda flecha */
+    border-right:10px solid transparent; /* derecha flecha */
+    border-bottom:5px solid #FA702F; /* base flecha y color*/
+    top: -44px;
+    left: -55px;
+}
+
+
+div.treclamo {
+      line-height: 15px;
+}
+
+div.treclamo:after {
+    content: "";
+    position: relative;
+    width: 0;
+    height: 0;
+    border-left:10px solid transparent; /* izquierda flecha */
+    border-right:10px solid transparent; /* derecha flecha */
+    border-bottom:5px solid #FA702F; /* base flecha y color*/
+    top: -29px;
+    left: -135px;
+}
+
+div.tbmatrimonio {
+      line-height: 15px;
+}
+
+div.tbmatrimonio:after {
+    content: "";
+    position: relative;
+    width: 0;
+    height: 0;
+    border-left:10px solid transparent; /* izquierda flecha */
+    border-right:10px solid transparent; /* derecha flecha */
+    border-bottom:5px solid #FA702F; /* base flecha y color*/
+    top: -59px;
+    left: -135px;
+}
+
+div.tmortuorio {
+      line-height: 15px;
+}
+
+div.treembolso {
+      line-height: 15px;
+}
+
+div.treembolso:after {
+    content: "";
+    position: relative;
+    width: 0;
+    height: 0;
+    border-left:10px solid transparent; /* izquierda flecha */
+    border-right:10px solid transparent; /* derecha flecha */
+    border-bottom:5px solid #FA702F; /* base flecha y color*/
+    top: -89px;
+    left: -135px;
+}
+
+div.tvaca {
+      line-height: 15px;
+}
+
+div.tvaca:after {
+    content: "";
+    position: relative;
+    width: 0;
+    height: 0;
+    border-left:10px solid transparent; /* izquierda flecha */
+    border-right:10px solid transparent; /* derecha flecha */
+    border-bottom:5px solid #FA702F; /* base flecha y color*/
+    top: -44px;
+    left: -135px;
+}
+
+div.thogar {
+      line-height: 15px;
+}
+
+div.thogar:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left:10px solid transparent; /* izquierda flecha */
+    border-right:10px solid transparent; /* derecha flecha */
+    border-bottom:5px solid #FA702F; /* base flecha y color*/
+    top: -7px;
+    left: 10px;
+}
+
+.reducir {
+    width: 100% !important;
+
+}
+
+.reduc {
+    width: 120px !important;
+
+}

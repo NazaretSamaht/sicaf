@@ -1,0 +1,240 @@
+/* 
+    Document   : estilo_blueprint
+    Created on : 23/08/2012, 11:35:38 PM
+    Author     : Nazaret
+    Description:
+        Purpose of the stylesheet follows.
+*/
+body{
+/*    background-image: url("../images/fondo1.png") repeat-x ;*/
+}
+#banner{
+/*	background-image: url("../images/fondo1.png");*/
+	min-height: 85px;
+	font-size: 1.0em;
+        -moz-border-radius: 6px;
+        padding-bottom: 5px;
+        
+       
+}
+
+fieldset{
+    clear: both;
+}
+
+#logo_rrhh{
+   background-image: url("../images/logo_rrhh.png");
+   background-repeat: no-repeat; 
+   min-height: 85px;
+}
+
+#espacios{
+     padding-bottom: 3px;
+     background-color: #F9AE43;
+     
+}
+
+#vacios{
+     padding-bottom: 3px;
+     background-color: #FFFFFF;
+     
+}
+
+#titulo_sist{
+   
+    font-size: 60px;
+    font-family: Helvetica, Verdana, sans-serif;
+    font-style: oblique;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-left: 15px;
+   
+}
+
+.titulo{
+   
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 22px;
+color: #333333;
+   
+}
+
+
+
+#img_solicitud{
+    background-image: url("../images/icono_agregar4.png");
+    width:15;
+    height:15;
+    
+}
+
+
+
+#img_consulta{
+    background-image: url("../images/icono_ver.png");
+    width:15;
+    height:15;
+
+}
+
+#sub_sist{
+   
+    font-size: 17px;
+    font-family: Helvetica, Verdana, sans-serif;
+    font-style: oblique;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-left: 15px;
+   
+}
+
+.titulo_form {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;	-moz-box-shadow:    0px 0px 0px 1px #0CF;
+	color: #333333;
+	text-align: center;
+}
+
+.sub_form {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;	-moz-box-shadow:    0px 0px 0px 1px #0CF;
+	color: #333333;
+}
+
+.sub {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px !important;
+	font-weight: bold;	-moz-box-shadow:    0px 0px 0px 1px #0CF;
+	color: #333333;
+}
+
+
+#logotipo{
+         background-image: url("../images/fondo_alcaldia.png");
+         background-repeat: repeat-x;
+         text-align: left;
+         min-height: 85px;
+         
+}
+
+#footer{
+    
+    background-color: #2E2E2E;
+    color: #ffffff;
+    min-height: 115px;
+    margin-top: 10px;
+}
+
+#footer_logo{
+    background-image: url("../images/flogo_alcaldia.gif");
+    background-repeat: no-repeat;
+    min-height: 115px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#footer_enunc{
+    margin-top: 20px;
+    color: #ffffff !important; 
+}
+
+
+
+
+
+#barrita{
+     background-image: url("../images/fondo_alcaldia.png");
+     background-repeat: repeat-y;
+     min-height: 245px;
+     min-width: 2px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+    
+}
+
+#menu{
+	background-color:#cfc;
+        -moz-border-radius: 6px;
+}
+
+#contenido{
+	
+/*	background-color:#8DB865;*/
+        -moz-border-radius: 6px;
+}
+
+
+
+
+h3{
+    color: #ffffff;
+    
+}
+input[type="submit"]{
+    background-image: url("../images/gloss.png");
+    
+/*    border: none;*/
+    -moz-border-radius: 12px;
+    padding: 5px;
+    cursor: pointer;
+}
+input[type="reset"]{
+    background-image: url("../images/gloss.png");
+    border-color: #00620C;
+    -moz-border-radius: 12px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+input[type="checkbox"],input[type="radio"]{
+   cursor: pointer;
+}
+select{
+   cursor: pointer; 
+}
+
+input[type="text"]:hover{
+    
+    border-color: #0B6138 ;
+}
+select:hover{
+   border-color: #0B6138 ;
+}
+
+a{
+    color: #555555;
+    text-decoration: none;
+
+}
+a:hover{
+   color: #000;
+}
+
+
+#r_mortuorio, #r_matrimonio, #r_anticipo, #primas, #copias, #r_hijo, #otro,
+.activo_opciones,.jubilado_opciones, #tipo_copia, #r_liquidacion, .opciones_hcm,
+#r_hcm, #r_inclusion,#r_reclamos,#r_poliza,#r_antig, #r_bhijo, #r_bmatrimonio,#r_hijo, #tipo_const_trab,
+.act_jub_opc, #tipo_const_jub, #liq, #fid, #r_vacaciones, #r_exclusion, #r_vacaciones, #n_trayecto, #n_const_trab, #n_antecedente,
+#n_const_jub, #n_const_faov, #n_14-02, #n_14-03, #n_14-100{
+    display:none;
+}
+
+.border_table, .border_table tr, .border_table td, .border_table th{
+    border: 1px solid;
+}
+
+.datatable{
+    font-size: 12px !important;
+}
+
+.gris{
+    width: 945px;
+}
+
+.estilo_botones{
+    padding: 5px;
+    text-align: right;
+}
+

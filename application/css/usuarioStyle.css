@@ -1,0 +1,32 @@
+/* 
+    Document   : usuarioStyle
+    Created on : 30-may-2013, 10:59:30
+    Author     : toronacii
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.inputSpinner{
+    border: 1px solid #BBBBBB;
+    padding: 0;
+    width: 150px;
+}
+
+.inputSpinner input{
+    border:none !important;
+    margin: 0 !important;
+    width: 80%;
+}
+
+.inputSpinner .spinner{
+    float:right;
+    display: none;
+}
+
+.spinner {
+    background: url(../images/spinner.gif) no-repeat center;
+    display: inline-block;
+    height: 13px;
+    margin-top: 3px;
+    width: 18px;
+}

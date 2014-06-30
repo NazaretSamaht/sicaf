@@ -1,0 +1,19 @@
+
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+
+class Model_pdf extends CI_Model {
+    
+    public $sigesp;
+    
+    function __construct(){
+        parent::__construct();
+        $this->sigesp=$this->load->database('sigesp', TRUE);
+    }
+    
+
+    
+    
+}
+
+/* End of file modelPdf.php */
+/* Location: ./application/models/model_pdf.php */

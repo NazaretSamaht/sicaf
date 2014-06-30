@@ -1,0 +1,23 @@
+/* 
+    Document   : estilo_recibo
+    Created on : 02-oct-2013, 9:56:07
+    Author     : Nazaret Rangel
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+.tablas{
+    border-collapse: separate;
+    border-spacing: 3px;
+}
+.td_tablas{
+    border: orange 1px solid !important;
+ 
+}
+td .tablas{
+    border: orange 1px solid !important;
+}
+ 
